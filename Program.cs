@@ -40,6 +40,16 @@
             Console.WriteLine(extend.Max<int>(10, 30, 20, 40, 15));
             Console.WriteLine(extend.Max<float>(1.2f, 3.2f, 2.2f, 4.2f, 1.5f));
             Console.WriteLine(extend.Max<string>("apple", "banana", "peach", "mango", "orange"));
+            Console.WriteLine("----------------------------");
+
+            PrintMax print = new PrintMax();
+            int max = print.Max<int>(10, 30, 20, 40, 15);
+            Console.WriteLine("the maximun value is= " + max);
+            float max1 = print.Max<float>(1.2f, 3.2f, 2.2f, 4.2f, 1.5f);
+            Console.WriteLine("the maximun value is= " + max1);
+            string max2 = print.Max<string>("apple", "banana", "peach", "mango", "orange");
+            Console.WriteLine("The maximum value is= " + max2);
+
 
 
         }
