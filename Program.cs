@@ -14,6 +14,12 @@
             Console.WriteLine(testClass1.floatCompare(4.1f, 3.2f, 2.3f));
             Console.WriteLine(testClass1.floatCompare(3.2f, 4.1f, 2.3f));
             Console.WriteLine(testClass1.floatCompare(3.2f, 2.3f, 4.1f));
+            Console.WriteLine("----------------------------");
+
+            TestClass testClass2 = new TestClass();
+            Console.WriteLine(testClass2.stringCompare("peach", "banana", "apple"));
+            Console.WriteLine(testClass2.stringCompare("banana", "peach", "apple"));
+            Console.WriteLine(testClass2.stringCompare("apple", "banana", "peach"));
 
         }
     }
