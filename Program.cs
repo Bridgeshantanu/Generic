@@ -6,7 +6,7 @@
         {
             TestClass testClass = new TestClass();
             Console.WriteLine(testClass.IntCompare(4, 3, 2));
-
+            Console.WriteLine(testClass.IntCompare(3, 4, 2));
         }
     }
 }
