@@ -34,6 +34,13 @@
             Console.WriteLine(test2.CompareAll(4.8f, 3.2f, 2.3f));
             TestClass2<string> test3 = new TestClass2<string>();
             Console.WriteLine(test3.CompareAll("apple", "banana", "peach"));
+            Console.WriteLine("----------------------------");
+
+            Extend extend = new Extend();
+            Console.WriteLine(extend.Max<int>(10, 30, 20, 40, 15));
+            Console.WriteLine(extend.Max<float>(1.2f, 3.2f, 2.2f, 4.2f, 1.5f));
+            Console.WriteLine(extend.Max<string>("apple", "banana", "peach", "mango", "orange"));
+
 
         }
     }
