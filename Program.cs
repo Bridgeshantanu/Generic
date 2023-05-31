@@ -26,6 +26,14 @@
             Console.WriteLine(test.CompareAll<int>(4, 3, 2));
             Console.WriteLine(test.CompareAll<float>(4.1f, 3.2f, 2.3f));
             Console.WriteLine(test.CompareAll<string>("apple", "banana", "peach"));
+            Console.WriteLine("----------------------------");
+
+            TestClass2<int> test1 = new TestClass2<int>();
+            Console.WriteLine(test1.CompareAll(5, 3, 2));
+            TestClass2<float> test2 = new TestClass2<float>();
+            Console.WriteLine(test2.CompareAll(4.8f, 3.2f, 2.3f));
+            TestClass2<string> test3 = new TestClass2<string>();
+            Console.WriteLine(test3.CompareAll("apple", "banana", "peach"));
 
         }
     }
