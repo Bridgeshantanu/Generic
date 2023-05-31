@@ -20,6 +20,12 @@
             Console.WriteLine(testClass2.stringCompare("peach", "banana", "apple"));
             Console.WriteLine(testClass2.stringCompare("banana", "peach", "apple"));
             Console.WriteLine(testClass2.stringCompare("apple", "banana", "peach"));
+            Console.WriteLine("----------------------------");
+
+            TestClass1 test = new TestClass1();
+            Console.WriteLine(test.CompareAll<int>(4, 3, 2));
+            Console.WriteLine(test.CompareAll<float>(4.1f, 3.2f, 2.3f));
+            Console.WriteLine(test.CompareAll<string>("apple", "banana", "peach"));
 
         }
     }
